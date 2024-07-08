@@ -1,0 +1,378 @@
+
+.nav{
+  background-color: transparent;
+  display: flex;
+  position: sticky;
+  top: 0px;
+  padding: 10px;
+}
+
+
+#navbar{
+  background-image: url("./DSC_5979\ .jpg") ;
+  height: 48vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.img1{
+  width: 350px;
+  height: 60px;
+ display: flex;
+}
+.mega{
+  display: flex;
+  margin-right: 20px;
+  align-items: center;
+ margin-left: auto;  
+  
+}
+.mega a{
+  font-size: 0.9vw;
+  padding:  0.8vw;
+  text-decoration: none;
+  color: white;
+}
+.head1{
+  font-size: 1.4vw;
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 20vw;
+  left: 38vw;
+}
+.row{
+  padding: 5vw;
+}
+#destination h3{
+  color: #aaa;
+text-align: center;
+font-size: 0.9vw;
+letter-spacing: 1px;
+padding: 30px;
+}
+.row1{
+
+display: flex;
+}
+.card{
+ margin-left: 10px;
+ display: flex;
+ position: relative;
+ justify-content: center;
+ 
+  
+}
+.card h1{
+  display: flex;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  
+}
+ .img3 img{
+  height: 400px;
+  width: 100%;
+  filter: brightness(0.7);
+  transition: scale 0.25s ease-out;
+ 
+}
+.img3{
+  overflow: hidden;
+}
+.img3 img:hover{
+  scale: 1.05;
+}
+.card:hover{
+  cursor: pointer;
+}
+.img3:hover{
+  filter: brightness(1.4);
+}
+#seen h3{
+  padding: 30px;
+  margin-top: 30px;
+  color: #aaa;
+text-align: center;
+font-size: 0.9vw;
+letter-spacing: 1px;
+}
+.seenimg{
+  display: flex;
+  justify-content: center;
+}
+.seenimg img{
+  width: 700px;
+}
+
+#tour h3{
+  padding: 30px;
+  margin-top: 30px;
+  color: #aaa;
+text-align: center;
+font-size: 0.9vw;
+letter-spacing: 1px;
+}
+
+.row2{
+  display: flex;
+padding-inline:70px;
+}
+.img4{
+  overflow-x: hidden;
+}
+.img4 img{
+  height: 350px;
+  width: 100%;
+  filter: brightness(0.9);
+  
+}
+.card2{
+  display: flex;
+  padding-right: 20px;
+  position: relative;
+  justify-content: left;
+  overflow: hidden;
+  
+ }
+ .cont{
+  padding-left: 20px;
+  width: 96%;
+  height: 100%;
+  background: linear-gradient(0deg, rgba(51, 51, 51, .9290091036) 62%, rgba(51, 51, 51, 0) 100%);
+  
+ }
+ .card2 .cont{
+  position: absolute;
+  top: 60%;
+ }
+ .card2 h2{
+  color: white;
+  width: 100%;
+  font-size: 150%;
+ }
+ .card2 ul{
+  color: #aaa;
+  font-weight: lighter;
+  font-size: medium;
+ }
+ .card2:hover{
+  cursor: pointer;
+ }
+ .img4:hover{
+  filter: brightness(1.1);
+  scale: 1.014;
+  transition: scale 0.25s ease-out;
+
+ }
+ #fvt{
+  padding-top: 100px;
+  background-color: #f8f8f8;
+ }
+ #fvt .head6{
+  padding: 30px;
+  margin-top: 30px;
+  color: #aaa;
+text-align: center;
+font-size: 0.9vw;
+letter-spacing: 1px;
+
+ }
+ .img5{
+  background-color: white;
+  margin-right: 30px;
+  
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  min-height: 300px;
+  
+ }
+ 
+ .img5:hover{
+  scale: 1.02;
+  transition: scale 0.25s ease-out;
+ }
+ .head5{
+  padding: 40px;
+  min-height: 300px;
+  text-align: left;
+  background-color: white;
+ }
+ .head5 p {
+  color: #555;
+  font-size: large;
+ }
+ 
+ .container{
+  width: 65%;
+  background-color: #f8f8f8;
+  
+ }
+ .bt{
+  size: 35px;
+  color: white ;
+  padding: 10px;
+  border: none;
+  border-radius: 3%;
+  background-color: #4c4ccf;
+ }
+ .row5{
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+ }
+ #latest  h3{
+  padding: 30px;
+  margin-top: 30px;
+  color: #aaa;
+text-align: center;
+font-size: 0.9vw;
+letter-spacing: 1px;
+ }
+ #latest{
+  width: 100%;
+  margin-top: 30px;
+ }
+ #latest .bt{
+  position: absolute;
+  left: 45%;
+margin-top: 20px;
+ }
+ /*  */
+ footer {
+  margin-top: 80px;
+  background-color: #333;
+  color: #fff;
+  padding: 20px ;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 1200px;
+  
+}
+
+.footer-section {
+  padding: 40px;
+  margin-left: 0px;
+ width: 25%; 
+ color: #e7c9c9;
+}
+
+/* .footer-section h3 {
+
+  padding-bottom: 10px;
+
+} */
+
+.footer-section ul {
+  margin-left: -30px;
+  text-align: left;
+  list-style: none;
+}
+
+
+.footer-section ul li a {
+  color: #aaa;
+  font-size:12px;
+  text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+  color: white;
+}
+
+.row6 {
+  display: flex;
+  text-align: center;
+
+}
+
+.row6 p {
+  font-size: small;
+  color: #555;
+  justify-content: center;
+}
+
+.row6 a {
+  color: #aaa;
+  text-decoration: none;
+}
+
+.row6 a:hover {
+  text-decoration: underline;
+}
+
+#map h3{
+  padding: 30px;
+  margin-top: 30px;
+  color: #aaa;
+text-align: center;
+font-size: 0.9vw;
+letter-spacing: 1px;
+}
+.map {
+  display: flex;
+  margin-left: 20%;
+  width: 100%;
+  height: auto;
+  fill: #ccc;
+  stroke: #333;
+  stroke-width: 1;
+}
+#RU{
+  fill: blue;
+}
+#CO{
+  fill: blue;
+}
+#PE{
+  fill: blue;
+}
+#IR{
+  fill: blue;
+}
+#SA{
+  fill: blue;
+}
+#TR{
+  fill: blue;
+}
+
+#MN{
+  fill: blue;
+}
+#CN{
+  fill: blue;
+}
+#KZ{
+  fill: blue;
+}
+#PK{
+  fill: blue;
+}
+#AG{
+  fill: blue;
+}
+#US{
+  fill: blue;
+
+}
+#BR{
+  fill: blue;
+}
+#IN{
+  fill: blue;
+}
+
+path {
+  fill: rgb(170, 170, 170);
+}
+path:hover {
+  fill: purple;
+  stroke: black;
+  stroke-width: 2px;
+  transition: fill 0.4s;
+}
