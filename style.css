@@ -149,20 +149,17 @@ padding-inline:70px;
 }
 .card2{
   display: flex;
-  margin-right: 10px;
+  padding-right: 20px;
   position: relative;
   justify-content: left;
- overflow-x: hidden;
- overflow-y: hidden;
+  overflow: hidden;
+  
  }
  .cont{
   padding-left: 20px;
-  padding-right: 20px;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(0deg, rgba(51, 51, 51, .9290091036) 62%, rgba(51, 51, 51, 0) 100%);
-
   
+  height: 100%;
+  background: linear-gradient(0deg, rgba(51, 51, 51, .9290091036) 60%, rgba(51, 51, 51, 0) 100%);  
  }
  .card2 .cont{
   position: absolute;
