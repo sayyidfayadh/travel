@@ -136,7 +136,7 @@ letter-spacing: 1px;
 
 .row2{
   display: flex;
-padding-inline:70px;
+
 }
 .img4{
   overflow-x: hidden;
@@ -149,18 +149,17 @@ padding-inline:70px;
 }
 .card2{
   display: flex;
-  padding-right: 20px;
   position: relative;
   justify-content: left;
-  overflow: hidden;
-  
+  overflow-x: hidden;
+  overflow-y: hidden;
  }
  .cont{
-
   padding-left: 20px;
-  width: 535px;
-  height: 139px;
-  background: linear-gradient(0deg, rgba(51, 51, 51, .9290091036) 60%, rgba(51, 51, 51, 0) 100%);  
+  width: 100%;
+    height: 139px;
+    overflow-x: hidden;
+     background: linear-gradient(0deg, rgba(51, 51, 51, .9290091036) 60%, rgba(51, 51, 51, 0) 100%);  
  }
  .card2 .cont{
   position: absolute;
